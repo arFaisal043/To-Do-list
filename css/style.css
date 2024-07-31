@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0; */
     /* background: linear-gradient(45deg,#000000,#130F40); */
-    background: linear-gradient(45deg,#12dafb,#cdd0d1,#12dafb);
+    background: linear-gradient(45deg,#b49c70,#42347c,#2742c6);
     display: flex;
     justify-content: center;
     height: 100vh;
@@ -16,12 +16,18 @@ body {
     flex-direction: column;
 }
 .heading h1 {
-    color: rgb(5, 5, 5);
-    font-size: 3rem;
-    margin-bottom: 5rem;
+    color: rgb(251, 252, 252);
+    font-size: 4rem;
+    /* margin-bottom: 5rem; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
+    text-align: center;
+}
+.heading h3 {
+    color: rgb(223, 206, 206);
+    font-size: 2rem;
+    margin-bottom: 5rem;
     text-align: center;
 }
 .todo-container {
@@ -67,8 +73,14 @@ body {
 
 @media screen and (max-width:600px) {
     .heading h1 {
-        color: rgb(5, 5, 5);
-        font-size: 2rem;
+        color: rgb(251, 252, 252);
+        font-size: 3rem;
         margin-bottom: 5rem;
+    }
+    .heading h3 {
+        color: rgb(223, 206, 206);
+        font-size: 1.6rem;
+        margin-bottom: 5rem;
+        text-align: center;
     }
 }
